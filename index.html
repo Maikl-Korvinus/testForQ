@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/style.css">
+   <title>qMedia Test</title>
+</head>
+<body>
+      <div class="wrapper">
+         <div class="form">
+            <form action="#" id="form" class="form__body">
+               <h1 class="form__title">Отправить заявку на участие в семинаре</h1>
+               <h2 class="form__subtitle">Организаторы свяжутся с вами для подтверждения записи.</h2>
+               <h2 class="form__subtitle">Участие в семинаре <span class="form__free">бесплатное</span></h2>
+               <div class="form__item">
+                  <label for="formName" class="form__label">Ваше Имя:*</label>
+                  <input id="formName" type="text" name="name" class="form__input _req">
+               </div>
+               <div class="form__item">
+                  <label for="formEmail" class="form__label">Ваш Email:*</label>
+                  <input id="formEmail" type="text" name="email" class="form__input _req _email">
+               </div>
+               <div class="form__item">
+                  <div class="form__label">Интересующий семинар:</div>
+                  <select name="semm" class="select">
+                     <option value="Семинар по разработке" selected>Разработка</option>
+                     <option value="Семинар по маркетингу">Маркетинг</option>
+                     <option value="Семинар по дизайну">Дизайн</option>
+                  </select>
+               </div>
+               <div class="form__sogl">
+                  Все поля обязательны для заполнения.
+                  Отправляя заявку, вы соглашаетесь с договором публичной оферты и политики обработки данных
+               </div>
+               <button type="submit" class="form__button">Отправить</button>
+            </form>
+         </div>
+      </div>
+      <script src="/js/script.js"></script>
+</body>
+</html>
